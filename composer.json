@@ -14,11 +14,19 @@
         }
     ],
     "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/stipic/PaymentSlip.git"           
-        }
-    ],
+	    {
+	        "type":"package",
+	        "package": {
+	          "name": "stipic/PaymentSlip",
+	          "version":"master",
+	          "source": {
+	              "url": "https://github.com/stipic/PaymentSlip.git",
+	              "type": "git",
+	              "reference":"master"
+	            }
+	        }
+	    }
+	],
     "require": {
         "bigfish/pdf417": "^0.3.0"
     }       
