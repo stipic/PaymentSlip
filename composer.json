@@ -13,7 +13,13 @@
             "email": "kiki.stipic@gmail.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/stipic/PaymentSlip.git"           
+        }
+    ],
     "require": {
         "bigfish/pdf417": "^0.3.0"
-    }
+    }       
 }
