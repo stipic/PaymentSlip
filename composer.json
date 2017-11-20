@@ -1,0 +1,17 @@
+{
+    "name": "stipic/PaymentSlip",
+    "description": "A library for generating payment slip",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "stipic\\PaymentSlip\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.4",
+        "bigfish/pdf417": "^0.3.0",
+        "ext-gd": "*",
+        "ext-bcmath": "*",
+        "intervention/image": "~2.0"
+    }
+}
